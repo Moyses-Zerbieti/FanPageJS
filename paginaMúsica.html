@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 20px arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Perfil de Fã</h1>
+
+    <p>Caso queira criar outro perfil de fã clique em <b>"Pagina do fã em JS"</b> para registrar outro um novo perfil DIVIRTA-SE <b>:D</b></n></p>
+
+    <a href="paginaMúsica.html">Pagina do fã em JS</a><br><br>
+
+
+
+<script>
+    var nome = window.prompt('Bem vindo! Qual o seu nome?')
+    var idade = window.prompt('Qual a sua idade?')
+    var cantor = window.prompt('Ola ' +nome +' conte para nós qual seu cantor favorito')
+    window.alert ('UAU!! ' +cantor +' é bom demais!')
+    var musicas = window.prompt('Agora quero ver se voce sabe quantas musicas aproximadamente o ' +cantor +' já lançou?')
+    window.alert ('Não sei não hein, mas pode ser que você acertou ' +musicas +' é bastante coisa e o ' +cantor +' já lançou tantas que nem da pra saber')
+    var vezes = window.prompt('Quantas vezes voce escutou ' +cantor +' hoje?')
+    window.alert('Nossa nunca vi alguem ser tão fã de ' +cantor +' como voce é, fala pra gente então, qual dessas ' +musicas +' músicas é a sua preferida?')
+    var favorita = window.prompt('Fala a melhor na sua opinião')
+    var album = window.prompt ('De qual album é a '+favorita)
+    var ano = window.prompt ('Qual o ano de lançamento do album?') 
+    window.alert('O album '+album +' é o melhor que o '+cantor +' já lançou, esse também é o meu favorito')
+    window.alert('Nossa você realmente tem bom gosto, além escutar ' +cantor +' você gosta mais de ' +favorita +' que é de longe a melhor entre as ' +musicas +' músicas lançadas')
+
+    document.write(`Nome: ${nome}<br/>`)
+    document.write(`Idade: ${idade} anos<br/>`)
+    document.write(`Cantor favorito: ${cantor}<br/>`)
+    document.write(`Música favorita do ${cantor}: ${favorita}<br/>`)
+    document.write(`Album da ${favorita}: ${album}<br/>`)
+    document.write(`Ano de lançamento (${album}): ${ano}<br/>`)
+    document.write(`Quantidade aproximada de músicas lançadas: ${musicas}<br/>`)
+    document.write(`${nome} escutou ${cantor} ${vezes} vezes só hoje <br/>`)
+</script>
+<br>
+<p><b>Entre contato caso tenha sujestão de melhorias para o meu projeto ou para dar sua opinião, serei grato pela atenção</b><br>
+    <a href="https://www.instagram.com/_zerbietii/">Instagram</a><br>
+    <a href="https://x.com/Thezeisz">Twitter(X)</a></p>
+
+</body>
+</html>
