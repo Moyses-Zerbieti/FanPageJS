@@ -1,0 +1,5 @@
+ - Esse meu estudo eu fiz bem no inicio do estudo em Javascript usando prompt pra fazer alterações e inserção de dados na pagina
+ - Apesar de ser bem simples eu gostei bastante do resultado
+ - Caso tenha alguma sujestão de melhoria ou estudo vou deixar meus contatos abaixo:
+ - Obrigado pela atenção
+ - Linkedin: https://www.linkedin.com/in/moyses-zerbieti/
